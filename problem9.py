@@ -8,14 +8,11 @@ def findMaxSum(arr, n):
     incl = 0
     excl = 0  
     for i in arr:
-         
-        # Current max excluding i
-        new_excl = max (excl, incl)
-         
        
+        new_excl = max (excl, incl)
+        
         incl = excl + i
         excl = new_excl
-     
    
     return max(excl, incl)
  
