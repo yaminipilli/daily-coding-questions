@@ -1,7 +1,7 @@
- Given a list of numbers and a number k,return whether any two numbera from the list add upto k.
+ '''Given a list of numbers and a number k,return whether any two numbera from the list add upto k.
  for example [10,15,3,7] and k of 17,retrun true since (10+7) is 17.
  
- solution:
+ solution:'''
  
  arr= [10, 15, 3, 7]
 k = 17
