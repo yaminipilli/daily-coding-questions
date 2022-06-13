@@ -1,2 +1,2 @@
-# daily-coding-questions
+# daily-coding-problems
 Daily coding problems
